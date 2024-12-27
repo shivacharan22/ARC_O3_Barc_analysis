@@ -147,9 +147,9 @@ def main():
     st.title("ARC Task Visualization App")
 
     # Load data
-    with open('attemps.json') as f:
+    with open('data/attemps.json') as f:
         o3_outputs = json.load(f)
-    with open('data_Barc_answers.pkl', 'rb') as f:
+    with open('data/data_Barc_answers.pkl', 'rb') as f:
         Barc_attempt = pickle.load(f)
 
     # Initialize the ARCData instance
