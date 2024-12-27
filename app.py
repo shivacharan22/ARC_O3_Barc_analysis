@@ -144,7 +144,7 @@ def display_test_data(task, arc_data):
 
 def main():
     st.set_page_config(layout="wide")
-    st.title("ARC Task Visualization App")
+    st.title("ARC o3 Failure analysis with open source")
 
     # Load data
     with open('data/attemps.json') as f:
